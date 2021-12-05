@@ -1,0 +1,21 @@
+.list {
+  width: 100px;
+  border-radius: 8px;
+  color: #0F523E;
+  background: #E0F1E8;
+  cursor: pointer;
+}
+.item {
+  text-align: center;
+  padding: 10px;
+}
+.item:first-of-type {
+  border-radius: 8px 8px 0 0;
+}
+.item:last-of-type {
+  border-radius: 0 0 8px 8px;
+}
+.item:hover {
+  color: #fff;
+  background: #3DA586;
+}
